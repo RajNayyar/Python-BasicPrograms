@@ -220,6 +220,40 @@ A=A.find("a")
 print(A)
 '''
 
-a = "fchk e"
-a = a[-1:]+a[0]+a[1:-1]+"."
+'''
+a = "fchkjbhsbjhfse"
+a = a[-1]+a[1:-1]+a[0]
 print(a)
+'''
+
+'''
+def check(a):
+  countnum=0
+  countalpha=0
+  for i in a:
+    if i.isdigit():
+      countnum=countnum+1
+    elif i.isalpha():
+      countalpha=countalpha+1
+  print("number count:",countnum,"char count:",countalpha)
+
+a = "hb34bbhk439"
+check(a)
+'''
+
+'''
+a = "hello a hello hello a a a bol bol"
+a = a.split(" ")
+dict={}
+print(a)
+b=[]
+for i in a:
+  if(b.count(i)==0):
+    b.append(i)
+print(b)
+for i in b:
+  dict[i] = a.count(i)
+print(dict)
+'''
+
+
