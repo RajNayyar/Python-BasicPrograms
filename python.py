@@ -255,5 +255,33 @@ for i in b:
   dict[i] = a.count(i)
 print(dict)
 '''
+'''
+class  Banking:
+  fa = 0
+  withamount = 0
+  def fixedamount(self):
+    self.fa = 1000 
+  def inputwithdrawamt(self):
+    self.withamount = int(input("Enter the withdraw amount:"))
+  def displaybalance(self):
+    print("Balance is:", self.fa - self.withamount)
+
+obj = Banking()
+obj.fixedamount()
+obj.inputwithdrawamt()
+obj.displaybalance()
+'''
+
+import datetime
+from datetime import date
+from datetime import time
+print(help(time))
 
 
+
+
+'''
+a = "helllo"
+a=a.replace('l','o')
+print(a)
+'''
