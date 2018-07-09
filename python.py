@@ -272,11 +272,12 @@ obj.inputwithdrawamt()
 obj.displaybalance()
 '''
 
+'''
 import datetime
 from datetime import date
 from datetime import time
 print(help(time))
-
+'''
 
 
 
@@ -284,4 +285,10 @@ print(help(time))
 a = "helllo"
 a=a.replace('l','o')
 print(a)
+'''
+
+'''
+s = "hsb hds  hc  "
+s = s.strip()
+print(s)
 '''
